@@ -4,6 +4,7 @@
   "description": "TailwindCSS powered portal pages",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss -i tailwindportal/templates/base.css -o tailwindportal/public/css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
